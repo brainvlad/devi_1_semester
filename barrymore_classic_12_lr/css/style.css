@@ -683,3 +683,104 @@ body {
 .team__item-top .team__avatar {
     gap: 57px;
 }
+
+/*services*/
+
+.services {
+    padding: 100px 0;
+}
+
+.services__item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.services__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    border-bottom: 1px solid #fefefe;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+
+    cursor: pointer;
+}
+
+.services__title-active {
+    color: #BA894F;
+    border-color: #BA894F;
+}
+
+.services__name {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.services__desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #B3B3B3;
+
+    border: 1px solid #BA894F;
+    border-radius: 8px;
+    padding: 14px 18px;
+}
+
+.services__content {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap;
+    margin: 50px 0;
+}
+
+.cols-item {
+    white-space: normal;
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    justify-content: space-between;
+
+}
+
+/*gift*/
+
+.gift {
+    width: 100%;
+    height: 438px;
+    border: 1px solid #BA894F;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 54px;
+    margin-bottom: 100px;
+}
+
+.gift__text {
+    width: auto;
+}
+
+.gift__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 63px;
+}
+
+.gift__desc {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
