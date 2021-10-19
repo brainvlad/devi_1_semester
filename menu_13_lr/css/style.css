@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .col:nth-child(1) {
@@ -235,4 +236,12 @@ body {
     -webkit-box-shadow: 0px 0px 16px 3px rgba(34, 60, 80, 0.25) inset;
     -moz-box-shadow: 0px 0px 16px 3px rgba(34, 60, 80, 0.25) inset;
     box-shadow: 0px 0px 16px 3px rgba(34, 60, 80, 0.25) inset;
+}
+
+h1 {
+    position: absolute;
+    left: 5px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
 }
