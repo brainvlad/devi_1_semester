@@ -127,7 +127,7 @@ body {
 
 /*description*/
 .desc {
-    padding-top: 200px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -390,4 +390,158 @@ body {
     font-size: 17px;
     line-height: 26px;
     opacity: 0.5;
+}
+
+
+/*masters*/
+.masters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.masters__item {
+    border-radius: 200px 200px 0 0;
+    width: 255px;
+    cursor: pointer;
+    transition: .15s ease-out;
+    margin-bottom: 100px;
+}
+.masters__photo {
+    width: 255px;
+    height: 255px;
+    position: relative;
+    border-radius: 50%;
+}
+.masters__photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.masters__photo-overlay {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    opacity: 0;
+    color: #B3B3B3;
+}
+.masters__item:hover .masters__photo-overlay {
+    opacity: 1;
+}
+.masters__item:active {
+    transform: translateY(-10px);
+}
+.masters__name {
+    padding: 26px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 46px;
+    word-spacing: 200px;
+    position: relative;
+}
+.masters__name img {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -55%);
+}
+
+
+/*booking*/
+.booking {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.col {
+    width: 33%;
+}
+.col-title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    padding-bottom: 50px;
+}
+.booking-list {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.rad-label {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+.rad-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+}
+.rad-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.rad-design {
+    width: 17px;
+    height: 17px;
+    border-radius: 100px;
+    background: #991C20;
+    position: relative;
+}
+
+.rad-design::before {
+    content: '';
+
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 1) inset;
+    -moz-box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 1) inset;
+    box-shadow: 0px 0px 0px 1px rgba(31, 31, 31, 1) inset;
+    background: #E8E1C6;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.rad-input:checked+.rad-design::before {
+    transform: scale(0);
+}
+
+.date {
+    padding: 18px;
+    border: 1px solid #1f1f1f;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #1f1f1f;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
