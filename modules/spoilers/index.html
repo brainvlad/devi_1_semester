@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spoilers</title>
+    <link rel="stylesheet" href="css/style.css">
+  <script src="js/spoiler-jq.js"></script>
+</head>
+<body>
+<h1>
+  Спойлеры на JQuery
+</h1>
+  <div class="block one">
+    <div class="block__item">
+      <div class="block__title">
+        Заголовок №1
+      </div>
+      <div class="block__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate earum eos
+        exercitationem iusto nam nostrum, quibusdam voluptate. Beatae explicabo facilis, illo
+        ipsam magni perferendis quaerat qui quis quos sapiente, sint.
+      </div>
+    </div>
+    <div class="block__item">
+      <div class="block__title">
+        Заголовок №2
+      </div>
+      <div class="block__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate earum eos
+        exercitationem iusto nam nostrum, quibusdam voluptate. Beatae explicabo facilis, illo
+        ipsam magni perferendis quaerat qui quis quos sapiente, sint.
+      </div>
+    </div>
+    <div class="block__item">
+      <div class="block__title">
+        Заголовок №3
+      </div>
+      <div class="block__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate earum eos
+        exercitationem iusto nam nostrum, quibusdam voluptate. Beatae explicabo facilis, illo
+        ipsam magni perferendis quaerat qui quis quos sapiente, sint.
+      </div>
+    </div>
+  </div>
+
+  <h1>
+    Спойлеры на чистом JavaScript с изменением при адаптивности
+  </h1>
+  <div data-spoilers data-one-spoiler class="block-clear">
+    <div class="block-clear__item">
+      <button tabindex="-1" type="button" data-spoiler class="block-clear__title">
+        Обычный спойлер #1
+      </button>
+      <div class="block-clear__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ad animi deserunt exercitationem id in itaque, nemo nobis non placeat quaerat
+        quam quasi qui quis saepe sed suscipit tempora temporibus, tenetur?
+      </div>
+    </div>
+    <div class="block-clear__item">
+      <button tabindex="-1" type="button" data-spoiler class="block-clear__title">
+        Обычный спойлер #2
+      </button>
+      <div class="block-clear__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ad animi deserunt exercitationem id in itaque, nemo nobis non placeat quaerat
+        quam quasi qui quis saepe sed suscipit tempora temporibus, tenetur?
+      </div>
+    </div>
+    <div class="block-clear__item">
+      <button tabindex="-1" type="button" data-spoiler class="block-clear__title">
+        Обычный спойлер #3
+      </button>
+      <div class="block-clear__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ad animi deserunt exercitationem id in itaque, nemo nobis non placeat quaerat
+        quam quasi qui quis saepe sed suscipit tempora temporibus, tenetur?
+      </div>
+    </div>
+  </div>
+
+  <div data-spoilers="650,min" data-one-spoiler class="block-clear">
+    <div class="block-clear__item">
+      <button tabindex="-1" type="button" data-spoiler class="block-clear__title">
+        Спойлер работает на экранах >= 650px
+      </button>
+      <div class="block-clear__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ad animi deserunt exercitationem id in itaque, nemo nobis non placeat quaerat
+        quam quasi qui quis saepe sed suscipit tempora temporibus, tenetur?
+      </div>
+    </div>
+  </div>
+
+  <div data-spoilers="800,max" data-one-spoiler class="block-clear">
+    <div class="block-clear__item">
+      <button tabindex="-1" type="button" data-spoiler class="block-clear__title">
+        Спойлер работает на экранах <= 800px
+      </button>
+      <div class="block-clear__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ad animi deserunt exercitationem id in itaque, nemo nobis non placeat quaerat
+        quam quasi qui quis saepe sed suscipit tempora temporibus, tenetur?
+      </div>
+    </div>
+    <div class="block-clear__item">
+      <button tabindex="-1" type="button" data-spoiler class="block-clear__title">
+        Спойлер работает на экранах <= 800px
+      </button>
+      <div class="block-clear__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Ad animi deserunt exercitationem id in itaque, nemo nobis non placeat quaerat
+        quam quasi qui quis saepe sed suscipit tempora temporibus, tenetur?
+      </div>
+    </div>
+  </div>
+<h1>
+  Семантические спойлеры
+</h1>
+<div class="block">
+  <details class="block-semantic__item">
+    <summary class="block-semantic__title">Семантический спойлер #1</summary>
+    <p class="block-semantic__text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Alias aperiam autem beatae culpa dolores earum, eius eum,
+      illum magni maxime, minus mollitia nam non quaerat quis r
+      eprehenderit suscipit totam ullam!
+    </p>
+  </details>
+  <details class="block-semantic__item">
+    <summary class="block-semantic__title">Семантический спойлер #2</summary>
+    <p class="block-semantic__text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Alias aperiam autem beatae culpa dolores earum, eius eum,
+      illum magni maxime, minus mollitia nam non quaerat quis r
+      eprehenderit suscipit totam ullam!
+    </p>
+  </details>
+  <details class="block-semantic__item">
+    <summary class="block-semantic__title">Семантический спойлер #3</summary>
+    <p class="block-semantic__text">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      Alias aperiam autem beatae culpa dolores earum, eius eum,
+      illum magni maxime, minus mollitia nam non quaerat quis r
+      eprehenderit suscipit totam ullam!
+    </p>
+  </details>
+</div>
+  <script
+          src="https://code.jquery.com/jquery-3.6.0.min.js"
+          integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+          crossorigin="anonymous"></script>
+  <script src="js/spoiler-jq.js"></script>
+  <script src="js/spoiler-clear.js"></script>
+</body>
+</html>

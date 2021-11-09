@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 50px;
+    background-color: #333333;
+    color: #fefefe;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+}
+
+
+.block {
+    margin: 0 0 30px 0;
+}
+.block__item {
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    overflow: hidden;
+        background: rgb(13,31,255);
+
+       background: linear-gradient(270deg, rgba(12,32,253,1) 0%, rgb(0, 255, 92) 100%);
+
+
+
+
+
+
+}
+.block__title {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    color: #fefefe;
+    padding: 10px;
+    /*outline: none;*/
+        background: rgb(13,31,255);
+
+       background: linear-gradient(270deg, rgba(12,32,253,1) 0%, rgb(0, 255, 92) 100%);
+
+
+
+
+
+
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+.block .block__title {
+    cursor: pointer;
+}
+.block .block__title {
+    padding: 10px 40px 10px 10px;
+}
+.block .block__title::before,
+.block .block__title::after {
+    content: "";
+    width: 6px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 20px;
+    transition: transform 0.3s ease 0s;
+}
+.block .block__title::before {
+    transform: rotate(40deg);
+    right: 15px;
+}
+.block .block__title::after {
+    transform: rotate(-40deg);
+    right: 11px;
+}
+.block .block__title.active::before,
+.block .block__title.active::after {
+    transform: rotate(0deg);
+}
+
+.block__text {
+    padding: 10px 15px;
+    line-height: 130%;
+    color: #FFFFFF;
+    /*transition: all 0.5s ease;*/
+}
+
+.block .block__text {
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 0px 12px -1px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 0px 12px -1px rgba(34, 60, 80, 0.2) inset;
+    display: none;
+}
+
+
+
+/*clear*/
+
+.block-clear {
+    margin: 0 0 30px 0;
+}
+.block-clear__item {
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    overflow: hidden;
+        background: rgb(13,31,255);
+
+       background: linear-gradient(270deg, rgba(12,32,253,1) 0%, rgb(0, 255, 92) 100%);
+
+
+
+
+
+
+}
+.block-clear__title {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    color: #fefefe;
+    padding: 10px;
+    /*outline: none;*/
+        background: rgb(13,31,255);
+
+       background: linear-gradient(270deg, rgba(12,32,253,1) 0%, rgb(0, 255, 92) 100%);
+
+
+
+
+
+
+    position: relative;
+    border: none;
+}
+.block-clear._init .block-clear__title {
+    cursor: pointer;
+}
+.block-clear._init .block-clear__title {
+    padding: 10px 40px 10px 10px;
+}
+.block-clear._init .block-clear__title::before,
+.block-clear._init .block-clear__title::after {
+    content: "";
+    width: 6px;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 20px;
+    transition: transform 0.3s ease 0s;
+}
+.block-clear._init .block-clear__title::before {
+    transform: rotate(40deg);
+    right: 15px;
+}
+.block-clear._init .block-clear__title::after {
+    transform: rotate(-40deg);
+    right: 11px;
+}
+.block-clear._init .block-clear__title._active::before,
+.block-clear._init .block-clear__title._active::after {
+    transform: rotate(0deg);
+}
+
+.block-clear__text {
+    padding: 10px 15px;
+    line-height: 130%;
+    color: #FFFFFF;
+    /*transition: all 0.5s ease;*/
+}
+
+.block-clear .block-clear__text {
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 0px 12px -1px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 0px 12px -1px rgba(34, 60, 80, 0.2) inset;
+}
+
+/*semantic*/
+
+.block-semantic__item {
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    overflow: hidden;
+        background: rgb(13,31,255);
+
+       background: linear-gradient(270deg, rgba(12,32,253,1) 0%, rgb(0, 255, 92) 100%);
+
+
+
+
+
+
+}
+
+.block-semantic__title {
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    color: #fefefe;
+    padding: 10px;
+    /*outline: none;*/
+        background: rgb(13,31,255);
+
+       background: linear-gradient(270deg, rgba(12,32,253,1) 0%, rgb(0, 255, 92) 100%);
+
+
+
+
+
+
+    position: relative;
+    border: none;
+}
+
+.block-semantic__text {
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(34, 60, 80, 0.2) inset;
+    -moz-box-shadow: 0px 0px 12px -1px rgba(34, 60, 80, 0.2) inset;
+    box-shadow: 0px 0px 12px -1px rgba(34, 60, 80, 0.2) inset;
+    padding: 10px 15px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
