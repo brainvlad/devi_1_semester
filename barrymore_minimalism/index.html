@@ -20,18 +20,36 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/burger.css">
     <!--    font include-->
 </head>
 <body>
+
+<div class="burger-menu">
+    <div class="burger-menu__overlay"></div>
+    <div class="burger-menu__button">
+        <i class="fas fa-ellipsis-v fa-lg"></i>
+    </div>
+    <nav class="burger-menu__nav">
+        <a href="index.html" class="burger-menu__link"><i class="fas fa-home fa-3x"></i> <span>Home</span></a>
+        <a href="#" class="burger-menu__link"><i class="fas fa-info-circle fa-3x"></i> <span>About Us</span></a>
+        <a href="#" class="burger-menu__link"><i class="fas fa-cut fa-3x"></i> <span>Services</span></a>
+        <a href="#" class="burger-menu__link"><i class="fas fa-images fa-3x"></i> <span>Gallery</span></a>
+        <a href="#" class="burger-menu__link"><i class="fas fa-shopping-bag fa-3x"></i> <span>Shop</span></a>
+        <a href="profile.html" class="burger-menu__link"><i class="fas fa-id-badge fa-3x"></i> <span>Profile</span></a>
+        <a href="login.html" class="burger-menu__link"><i class="fas fa-user fa-3x"></i> <span>User</span></a>
+    </nav>
+</div>
+
 <header class="header">
     <div class="header__content container">
-        <a class="header__link" href="index.html">Главная</a>
-        <a class="header__link" href="#">О нас</a>
-        <a class="header__link" href="#">Услуги</a>
+<!--        <a class="header__link" href="index.html">Главная</a>-->
+<!--        <a class="header__link" href="#">О нас</a>-->
+<!--        <a class="header__link" href="#">Услуги</a>-->
         <img src="img/header-logo-min.png" alt="logo">
-        <a class="header__link" href="#">Галерея</a>
-        <a class="header__link" href="#">Магазин</a>
-        <a class="header__link" href="profile.html">Профиль</a>
+<!--        <a class="header__link" href="#">Галерея</a>-->
+<!--        <a class="header__link" href="#">Магазин</a>-->
+<!--        <a class="header__link" href="profile.html">Профиль</a>-->
     </div>
 </header>
 <section class="welcome">
@@ -255,5 +273,12 @@
         </div>
     </div>
 </footer>
+
+<script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+</script>
+<script src="js/burger.js"></script>
 </body>
 </html>

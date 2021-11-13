@@ -223,7 +223,7 @@ body {
     transform: rotate(2.05deg);
 }
 .reviews__list {
-    padding: 110px 100px 0 270px;
+    padding:    110px 100px 0 270px;
     display: flex;
     flex-direction: column;
     gap: 70px;

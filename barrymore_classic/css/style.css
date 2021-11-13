@@ -712,10 +712,11 @@ body {
     cursor: pointer;
 }
 
-.services__title-active {
+.services__title._active {
     color: #BA894F;
     border-color: #BA894F;
 }
+
 
 .services__name {
     display: flex;
@@ -783,4 +784,14 @@ body {
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
+}
+
+.services__plus {
+    width: 30px;
+    height: 30px;
+    background: url(../img/services/plus.png) no-repeat center center;
+}
+
+.services__title._active .services__plus {
+    background: url(../img/services/plus-active.png) no-repeat center center;
 }
