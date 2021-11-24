@@ -108,7 +108,7 @@ if (spoilersArray.length > 0) {
             const mediaBreakpoint = paramsArray[1];
             const mediaType = paramsArray[2];
             const matchMedia = window.matchMedia(paramsArray[0]);
-            console.log(paramsArray)
+            // console.log(paramsArray)
             // Объекты с нужными условием
             const spoilersArray = breakpointsArray.filter(function (item) {
                 if (item.value === mediaBreakpoint && item.type === mediaType) {
