@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Barrymore</title>
+    <!--    font include-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!--    font include-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/preloader.css">
+
+    <script src="js/preloader.js"></script>
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader__row">
+            <div class="preloader__item"></div>
+            <div class="preloader__item"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="header__content container">
+            <div class="header__logo">
+                <a href="index.html">
+                    <img src="img/header-logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="header__menu">
+                <div class="header__nav">
+                    <a class="header__link" href="about.html">О нас</a>
+                    <a class="header__link" href="services.html">Услуги</a>
+                    <a class="header__link" href="#">Галерея</a>
+                    <a class="header__link" href="#">Магазин</a>
+                    <a class="header__link" href="#">Профиль</a>
+                </div>
+                <div class="btn">
+                    записаться
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="welcome">
+        <!-- anime banner -->
+        <div class="welcome-bg">
+            <div class="welcome-bg__bock"></div>
+            <div class="welcome-bg__banner">
+                <video width="100%" height="100%" autoplay="autoplay" muted loop>
+                    <source src="img/banner.mp4" type="video/mp4">
+                    </source>
+                </video>
+            </div>
+        </div>
+
+        <div class="welcome__content">
+            <div class="welcome__title">
+                Выполняем стрижки<br>
+                любых уровеней
+            </div>
+            <div class="welcome__subtitle">
+                Мужские парикмахерские с душой. Забота о клиентах - это<br>
+                основная задача нашей команды
+            </div>
+            <div class="btn">
+                записаться
+            </div>
+
+            <div class="welcome__arrow welcome__arrow-bg">
+                <img src="img/arrow-down.png" alt="arrow">
+            </div>
+        </div>
+    </section>
+    <main class="container">
+        <section class="advantage">
+            <div class="section-title">
+                Самый высокий<br>
+                уровень обслуживания:
+            </div>
+            <div class="advantage__favor">
+                <div class="advantage__favor-item">
+                    <div class="advantage__icon">
+                        <img src="img/index/advantage-icon.png" alt="advantage-icon">
+                    </div>
+                    <div class="advantage__favor-item-title">
+                        Бесплатный<br>
+                        вай-фай
+                    </div>
+                </div>
+                <div class="advantage__favor-item">
+                    <div class="advantage__icon">
+                        <img src="img/index/advantage-icon.png" alt="advantage-icon">
+                    </div>
+                    <div class="advantage__favor-item-title">
+                        Удобная<br>
+                        парковка
+                    </div>
+                </div>
+                <div class="advantage__favor-item">
+                    <div class="advantage__icon">
+                        <img src="img/index/advantage-icon.png" alt="advantage-icon">
+                    </div>
+                    <div class="advantage__favor-item-title">
+                        Игровая<br>
+                        консоль
+                    </div>
+                </div>
+            </div>
+            <div class="advantage__list">
+                <div class="advantage__list-item">
+                    <div class="advantage__list-number">
+                        01
+                    </div>
+                    <div class="advantage__list-title">
+                        Профессионализм
+                    </div>
+                    <div class="advantage__list-subtitle">
+                        Наши парикмахеры - мастера своего дела. Все постоянно совершенствуются
+                    </div>
+                </div>
+                <div class="advantage__list-item">
+                    <div class="advantage__list-number">
+                        02
+                    </div>
+                    <div class="advantage__list-title">
+                        Качество = Цена
+                    </div>
+                    <div class="advantage__list-subtitle">
+                        С нами вы не переплатите за громкое имя парикмахерской, наши цены соответствуют качеству
+                        предоставляемых услуг.
+                    </div>
+                </div>
+                <div class="advantage__list-item">
+                    <div class="advantage__list-number">
+                        03
+                    </div>
+                    <div class="advantage__list-title">
+                        Качественное оборудование и продукция
+                    </div>
+                    <div class="advantage__list-subtitle">
+                        Для наших клиентов только качественный набор инструментов, а также качественная органическая
+                        косметика.
+                    </div>
+                </div>
+                <div class="advantage__list-item">
+                    <div class="advantage__list-number">
+                        04
+                    </div>
+                    <div class="advantage__list-title">
+                        Приятные бонусы
+                    </div>
+                    <div class="advantage__list-subtitle">
+                        Предлагаем вкусный чай, свежий кофе, печенье, веселое общение и приятную музыку.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="business">
+        <div class="business__content container">
+            <div class="business__info">
+                <div class="business__title">
+                    Приведи друга - получите скидку 10р<br> вдвоем
+                </div>
+                <div class="business__subtitle">
+                    Если ты приведешь друга в наш салон, то получишь не
+                    только незабываемые впечатления и море комплиментов, а также скидку
+                    на посещение и тебе, и другу!
+                </div>
+                <div class="btn">
+                    записаться
+                </div>
+            </div>
+            <div class="business__img">
+                <img src="img/index/index-business-1.png" alt="business-image">
+            </div>
+        </div>
+    </section>
+    <main class="container">
+        <section>
+            <div class="advantage__gallery">
+                <div class="advantage__gallery-item adv-bg-1">
+                    <div class="advantage__gallery-title">
+                        Бесплатная стрижка<br>
+                        каждый месяц
+                    </div>
+                    <div class="advantage__gallery-subtitle">
+                        Каждый месяц первого числа мы раздаем бесплатная стрижка или набор среди наших постоянных
+                        клиентов
+                    </div>
+                    <div class="advantage__gallery-arrow">
+                        <img src="img/arrow-right.png" alt="arrow">
+                    </div>
+                </div>
+                <div class="advantage__gallery-item adv-bg-2">
+                    <div class="advantage__gallery-title">
+                        Скидка на первую<br>
+                        стрижку 25%
+                    </div>
+                    <div class="advantage__gallery-subtitle">
+                        Получите скидку 25% на первую стрижку<br>
+                        в BARRYMORE.
+                    </div>
+                    <div class="advantage__gallery-arrow">
+                        <img src="img/arrow-right.png" alt="arrow">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="examples">
+            <div class="section-title">
+                Наши работы:
+                <div class="section-subtitle">
+                    Профессиональный подход к каждому клиенту
+                </div>
+            </div>
+            <div class="examples__content">
+                <div class="examples__nav">
+                    <img src="img/arrow-left.png" alt="arrow">
+                    <img src="img/arrow-right.png" alt="arrow">
+                </div>
+                <div class="examples__gallery">
+                    <div class="examples__block">
+                        <div class="examples__full-img">
+                            <img src="img/index/example-1.png" alt="img-example">
+                        </div>
+                    </div>
+                    <div class="examples__block">
+                        <div class="examples__img">
+                            <img src="img/index/example-2.png" alt="img-example">
+                        </div>
+                        <div class="examples__img">
+                            <img src="img/index/example-3.png" alt="img-example">
+                        </div>
+                        <div class="examples__img">
+                            <img src="img/index/example-4.png" alt="img-example">
+                        </div>
+                        <div class="examples__img">
+                            <img src="img/index/example-5.png" alt="img-example">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section class="business">
+        <div class="business__content container">
+            <div class="business__info">
+                <div class="business__title">
+                    Купи инстраументы - мы поможем<br> освоить
+                </div>
+                <div class="business__subtitle">
+                    Только с 1 по 20 декабря. Вы можете приобрести в магазине БАРБЕР (ул. Белорусская, 21)
+                    коллекционные инструменты для стрижки
+                </div>
+                <div class="btn">
+                    перейти
+                </div>
+            </div>
+            <div class="business__img">
+                <img src="img/index/index-business-2.png" alt="business-image">
+            </div>
+        </div>
+    </section>
+    <main class="container">
+        <section class="add-services">
+            <div class="section-title">
+                Дополнительные услуги
+            </div>
+            <div class="add-services__item">
+                <div class="add-services__img">
+                    <img src="img/index/service-1.png" alt="image">
+                </div>
+                <div class="add-services__nav">
+                    <div class="add-services__title">
+                        Сборы жениха
+                    </div>
+                    <div class="add-services__desc">
+                        Сборы жениха в парикмахерской BARRYMORE: комплекс парикмахерских услуг для жениха
+                        и свидетельницы, шикарный интерьер для фотосъемки, салон будет в распоряжении жениха
+                        и его друзей на время подготовки.
+                    </div>
+                    <div class="btn">
+                        записаться
+                    </div>
+                </div>
+            </div>
+            <div class="add-services__item">
+                <div class="add-services__img">
+                    <img src="img/index/service-2.png" alt="image">
+                </div>
+                <div class="add-services__nav">
+                    <div class="add-services__title">
+                        Подарочные сертификаты
+                    </div>
+                    <div class="add-services__desc">
+                        В нашем салоне вы можете приобрести подарочные сертификаты номиналом 50 рублей, 100 рублей
+                        и 200 рублей. Подарочный сертификат можно использовать для получения услуги, а также для
+                        покупки косметики в нашем салоне.
+                    </div>
+                    <div class="btn">
+                        записаться
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-slider-section">
+            <div class="section-title">
+                Отзывы
+            </div>
+            <div class="services-slider">
+                <div class="examples__nav">
+                    <img src="img/arrow-left.png" alt="arrow">
+                    <img src="img/arrow-right.png" alt="arrow">
+                </div>
+                <div class="services-slider__content">
+                    <div class="services-slider__item">
+                        <div class="services-slider__user">
+                            <div class="services-slider__avatar">
+                                <img src="img/index/user-1.png" alt="slider-img">
+                            </div>
+                            <div class="services-slider__name">
+                                Иван
+                            </div>
+                        </div>
+                        <div class="services-slider__msg">
+                            Все барберы этого салона - настоящие профессионалы своего дела! Стригусь здесь
+                            постоянно, каждый раз у разных барберов и всегда с отличным результатом! Сегодня
+                            стригся у Алины, попросил сделать классику - пострига отлично, в прошлый раз
+                            стригся у Тимофея - тоже огонь сделал прическу! На ресепшн приятные и милые девушки!
+                        </div>
+                    </div>
+                    <div class="services-slider__item">
+                        <div class="services-slider__user">
+                            <div class="services-slider__avatar">
+                                <img src="img/index/user-2.png" alt="slider-img">
+                            </div>
+                            <div class="services-slider__name">
+                                Алена
+                            </div>
+                        </div>
+                        <div class="services-slider__msg">
+                            Который раз уже стрижется мой муж в этом барбершопе и в который раз убеждаемся,
+                            какие профессионалы там работают! Что касается стрижки. Муж очень долго искал
+                            своего мастера и как-то срочно нужна была стрижка поблизости с домом и попал
+                            к Евгению. Всегда все быстро и четко, не приходится ждать по полтора!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="map">
+            <div class="map__info">
+                <div class="map__title">
+                    Контакты
+                </div>
+                <div class="map__desc">
+                    ежедневно с 11:00 до 22:00<br>
+                    baranov@yandex.ru
+                </div>
+                <div class="map__addresses">
+                    <div class="map__address-item">
+                        <div class="map__address">
+                            ул. Мястровская, 28<br>
+                            375 (29) 634-01-01
+                        </div>
+                        <div class="btn">
+                            парковка
+                        </div>
+                    </div>
+                    <div class="map__address-item">
+                        <div class="map__address">
+                            ул. Мельникайте, 2<br>
+                            375 (29) 689-01-01
+                        </div>
+                        <div class="btn">
+                            парковка
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9394.031890321481!2d27.4638117!3d53.9404847!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xff9786e3594d9525!2z0JzRg9C20YHQutC-0Lkg0YHQsNC70L7QvSBCQVJSWU1PUkUgYmFyYmVyc2hvcA!5e0!3m2!1sen!2sby!4v1634590031966!5m2!1sen!2sby"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </section>
+        <section class="feedback">
+            <div class="section-title">
+                Свяжитесь с нами:
+            </div>
+            <form class="feedback__form" action="" method="">
+                <div class="feedback__contacts">
+                    <input type="text" placeholder="Ваше имя">
+                    <input type="email" placeholder="Ваша почта">
+                </div>
+                <div class="feedback__text">
+                    <textarea rows="8" placeholder="Ваше сообщение"></textarea>
+                </div>
+            </form>
+            <div class="btn">
+                написать
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__content container">
+            <div class="footer__nav">
+                <div class="footer__logo">
+                    <img src="img/header-logo.png" alt="logo">
+                </div>
+                <div class="footer__list">
+                    <a class="header__link" href="about.html">О нас</a>
+                    <a class="header__link" href="services.html">Услуги</a>
+                    <a class="header__link" href="#">Галерея</a>
+                    <a class="header__link" href="#">Магазин</a>
+                    <a class="header__link" href="#">Профиль</a>
+                </div>
+                <div class="btn">
+                    записаться
+                </div>
+            </div>
+            <div class="footer__contacts">
+                <div class="footer__social">
+                    <img src="img/footer-vk-icon.png" alt="vk-icon">
+                    <img src="img/footer-tg-icon.png" alt="tg-icon">
+                    <img src="img/footer-insta-icon.png" alt="insta-icon">
+                </div>
+                <div class="footer__copyright">
+                    &copy 2021. Баранов Владислав Александрович
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

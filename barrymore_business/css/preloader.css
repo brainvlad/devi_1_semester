@@ -34,7 +34,7 @@
   .preloader__item:last-child {
     top: auto;
     bottom: 0;
-    animation-delay: -1s;
+    animation-delay: -1s; 
   }
   
   @keyframes preloader-rotate {
